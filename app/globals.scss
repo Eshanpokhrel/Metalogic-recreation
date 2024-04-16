@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.empty{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 4rem;
+}
+
+$primary-color: #172554;
+$title-font: 3.75rem;
+$red-text: #e53b3a;
+$desc-text: #333333;
