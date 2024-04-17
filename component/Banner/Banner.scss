@@ -1,0 +1,42 @@
+.banner-container{
+    width: 100%;
+    height: auto;
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcfce7;
+    border: 2px solid #f5f5f5;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+
+    .banner-textArea{
+        align-items: flex-end;
+        text-align: end;
+
+        .banner-title{
+            font-size: 3.75rem;
+            line-height: 1;
+            font-weight: 700;
+            color: #001c48;
+            margin-bottom: 1rem;
+        }
+
+        .banner-text{
+            font-weight: 500;
+            color: rgb(63, 65, 64);
+            margin-bottom: 1rem;
+        }
+
+        button{
+            width: fit-content;
+            height: 40px;
+            border-radius: 8px;
+            padding: 8px 12px;
+            border: none;
+            background-color: #001c48;
+            color: white;
+        }
+    }
+
+}

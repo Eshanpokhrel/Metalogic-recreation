@@ -1,6 +1,7 @@
 @import "../../globals.scss";
-
-.technical_section{
+.dev-page {
+  width: 100%;
+  .technical_section {
     display: flex;
     align-items: center;
     text-align: center;
@@ -9,7 +10,7 @@
     width: 100%;
     padding: 0 10rem;
 
-    h1{
+    h1 {
       font-size: $title-font;
       font-weight: 900;
       text-transform: capitalize;
@@ -18,35 +19,36 @@
       margin-bottom: 1rem;
     }
 
-    .details{
+    .details {
       color: #383838;
       line-height: 1.5;
       margin: 0rem 20rem 1rem 20rem;
     }
 
-    .cardContainer{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 30px;
-        margin-top: 1rem;
+    .cardContainer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-top: 1rem;
     }
-}
-
-.faq{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  height: auto;
-  width: 100%;
-  padding: 0 10rem;
-
-  span{
-    color: #008080;
   }
 
-  h1{
-    font-size: 3rem;
-    line-height: 1;
+  .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    padding: 0 10rem;
+
+    span {
+      color: #008080;
+    }
+
+    h1 {
+      font-size: 3rem;
+      line-height: 1;
+    }
   }
 }

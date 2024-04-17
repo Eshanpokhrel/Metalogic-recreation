@@ -16,11 +16,13 @@ import project from '../../../public/document.svg'
 
 import './style.scss'
 import Accordian from '@/component/Accordian/Accordian'
+import Banner from '@/component/Banner/Banner'
+import Footer from '@/component/Footer/Footer'
 
 const page = () => {
 
   return (
-    <div>
+    <div className='dev-page'>
       <Description
        title="Website Development" 
        heading='Scalable & Seamless Web Development'
@@ -92,6 +94,7 @@ const page = () => {
         imgURL={benefits}
         ord={1}
       />
+
       <div className="faq">
         <h1><span>FAQs</span> (Frequently Asked Questions)</h1>
 
@@ -135,6 +138,10 @@ const page = () => {
           question = "What types of websites does METALOGIC specialize in developing?" 
           answer = "METALOGIC specializes in developing a wide range of websites, including but not limited to e-commerce sites, corporate websites, blogs, and custom web applications. We tailor our approach based on your specific needs and goals."
         />
+
+        <Banner/>
+
+        <Footer/>
       </div>
     </div>
   )
