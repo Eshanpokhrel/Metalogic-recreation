@@ -6,7 +6,8 @@ import laptop from '../../../public/hero.svg'
 import agile from '../../../public/ajile.svg'
 import benefits from '../../../public/benifits.svg'
 import customization from '../../../public/customization.svg'
-import React, { useEffect, useState } from 'react'
+import './style.scss'
+
 const page = () => {
 
   return (
@@ -18,23 +19,29 @@ const page = () => {
        imgURL={laptop}
        ord={0}
       />
+
       <Marquee/>
+
+      <div className='technical_section'>
         <h1>
           How the Web Development Project Quality Is Assured
         </h1>
-        <h4>
+        <div className='details'>
           Other than technical expertise, a wide range of other factors may directly or indirectly affect the quality of the program and the project's conclusion. At Metalogic, we value every single one of them greatly.
-        </h4>
-      <div className="cardContainer">
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
+        </div>
+        <div className="cardContainer">
+          <Cards/>
+          <Cards/>
+          <Cards/>
+          <Cards/>
+          <Cards/>
+          <Cards/>
+          <Cards/>
+          <Cards/>
+          <Cards/>
+        </div>
       </div>
+      
       <Description
         title="Our Methodology" 
         heading='Agile development methodology'

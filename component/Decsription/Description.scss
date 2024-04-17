@@ -1,4 +1,5 @@
 @import '../../app/globals.scss';
+@import 'animate.css';
 
 .container{
     display: flex;
@@ -8,6 +9,8 @@
     width: 100%;
     gap: 8rem;
     padding: 20rem 10rem;
+    animation: fadeInUp 2s;
+    animation-fill-mode: forwards;
 
     .mobile-reverse {
         flex-direction: row-reverse;
