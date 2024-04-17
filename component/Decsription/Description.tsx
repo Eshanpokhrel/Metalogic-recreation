@@ -6,15 +6,17 @@ interface myProps{
     heading: string;
     description: string;
     imgURL: string;
+    ord: number;
 }
 
-const Description = ({ title, heading, description, imgURL }:myProps) => {
+const Description = ({ title, heading, description, imgURL, ord }:myProps) => {
 
   const image = imgURL
+  const order = ord
 
   return (
-    <div className='container'>
-        <div className="text-zone">
+    <div className="container">
+        <div style={{order:order}} className="text-zone">
             <div className="red-text">
                 <h4>{title}</h4>
             </div>
