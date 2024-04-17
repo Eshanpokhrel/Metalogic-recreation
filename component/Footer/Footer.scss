@@ -1,3 +1,28 @@
 .footer{
+   background: url(../../public/herobg.svg); 
+   width: 100vw ;
+   color: white;
+   height: auto;
+   padding: 96px 64px 32px 64px;
+   z-index: 9999;
+   display: grid;grid-template-columns: 1fr 3fr;
+
+   .logoContainer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
     
+    .logo-text{
+        h1{
+            font-family: "Exo", sans-serif;
+            display: flex;
+            color: white ;
+            font-size: 30px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            line-height: 36px;
+        }
+    }
+}
 }

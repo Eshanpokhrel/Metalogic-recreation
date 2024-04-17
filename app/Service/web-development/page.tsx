@@ -96,7 +96,7 @@ const page = () => {
       />
 
       <div className="faq">
-        <h1><span>FAQs</span> (Frequently Asked Questions)</h1>
+        <h1><span className='green-text'>FAQs</span> (Frequently Asked Questions)</h1>
 
         <Accordian 
           question = "What types of websites does METALOGIC specialize in developing?" 
