@@ -1,6 +1,7 @@
 @import "../../globals.scss";
 .dev-page {
   width: 100%;
+  overflow: hidden;
   .technical_section {
     display: flex;
     align-items: center;
