@@ -3,18 +3,28 @@ import './Cards.scss'
 import Image from 'next/image'
 import scope from '../../public/scope.svg'
 
-const Cards = () => {
+interface cardProps {
+  title: string;
+  desc: string;
+  source: string;
+  alt: string
+}
+
+const Cards = ({ title, desc, source, alt }: cardProps) => {
+
+  const image = source;
+
   return (
     <div className='card'>
       <div className="img_wrapper">
-        <Image className='image' src={scope} alt="image" height={70} width={70}/>
+        <Image className='image' src={image} alt={alt} height={70} width={70}/>
       </div>
       <div className="text_wrapper">
         <div className="title-text">
-          precise scoping
+          {title}
         </div>
         <div className="desc-text">
-          We took great care to ensure that all software needs were fully specified, without any ambiguities or inconsistencies. This helps us precisely plan the project and avoid scope creep in the future.
+          {desc}
         </div>
       </div>
     </div>
