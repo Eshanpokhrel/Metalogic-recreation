@@ -1,7 +1,6 @@
 import React from 'react'
 import './Cards.scss'
 import Image from 'next/image'
-import scope from '../../public/scope.svg'
 
 interface cardProps {
   title: string;

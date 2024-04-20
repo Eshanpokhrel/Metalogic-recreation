@@ -13,11 +13,11 @@ interface myProps {
 const Description = ({ title, heading, description, imgURL, ord }: myProps) => {
 
   const image = imgURL;
-  const order = ord;
+  // const order = ord;
 
   return (
     <div id="cont" className="container">
-      <div style={{ order: order }} className="text-zone">
+      <div style={{ order: ord }} className="text-zone">
         <div className="red-text">
           <h4>{title}</h4>
         </div>
